@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .article {
+    background-color: #ffffff;
+    border: 2px solid #343a40;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #343a40;
+    text-align: center;
+  }
+  
+  p {
+    color: #6c757d;
+    line-height: 1.5;
+  }
+  
+  .img-fluid {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+.carousel-inner{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 500px;
+    padding-left: 15px;
+}
+  
+
+  

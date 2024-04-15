@@ -1,0 +1,35 @@
+@import url('background.css');
+@import url('main.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text:#EDF1F7;
+    --red:#C51212;
+    --blue:#0041c2;
+    --green:#14b02d;
+    --yellow:#ffc12b;
+}
+
+body, button, a {
+    color: var(--text);
+    font:400 1rem "mukta", sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+}
+button:hover{
+    cursor: pointer;
+}
+h1{
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
